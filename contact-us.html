@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us - Food Place</title>
+    <link rel="stylesheet" href="CSS/stylesheets.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Merriweather|Montserrat|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <meta name="description" content="Food Place is a modern and family-owned restaurant that creates and serves fresh, healthy and delicious meals.">
+    <meta name="keywords" content="Food, place, restaurant, healthy, fresh, delicious, delivery, reservation">
+  </head>
+
+  <body>
+    <!-- Header and Navigation -->
+    <div class="header">
+      <div class="wrapper">
+        <ul class="navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a>
+            <ul>
+              <li><a href="breakfast-menu.html">Breakfast</a></li>
+              <li><a href="daytime-menu.html">Lunch</a></li>
+              <li><a href="evening-menu.html">Dinner</a></li>
+            </ul>
+          </li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="catering.html">Catering</a></li>
+          <li><a href="our-locations.html">Our locations</a></li>
+          <li><a href="contact-us.html" class="active">Contact Us</a></li>
+        </ul>
+          <a href="index.html"><img class="logo-2" src="logo.png" alt="restaurant logo"></a>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+      <div class="wrapper">
+
+        <div class="col-1-3">
+          <h2>Contact us</h2>
+          <p>Food Place<br>
+          Berliner Allee 108 <br>
+          10435 Berlin</p>
+          <p>Telefon: +49 30 3456789 <br>
+          E-Mail: info@foodplace.com</p>
+        </div>
+
+
+        <div class="col-2-3">
+          <h3>Contact form</h3>
+          <form class="" action="form.php" method="post">
+            <p>
+            <label for="name">Full Name:</label>
+            <input id="name" type="text" name="name" value="" size="30"> <br>
+            <label for="email">E-mail:</label>
+            <input id="email" type="text" name="email" value="" size="30">
+            </p>
+            <p>
+            <label for="customer">New foodie?</label>
+            <input type="radio" checked name="customer" value="yes" id="newcustomer"> Yes
+            <input type="radio" name="customer" value="no" id="customer"> No
+            </p>
+            <p>
+              <label for="inquiry">What can we help you with?</label>
+              <select class="inquiry" name="inquiry" size="1">
+                <option value="">Book a table</option>
+                <option value="">Place an order</option>
+                <option value="">Job application</option>
+                <option value="">Other</option>
+              </select>
+            </p>
+            <p>
+              <label for="message">Your message:</label>
+              <textarea name="name" rows="8" cols="80">Your text...</textarea>
+            </p>
+            <p>
+              <input type="submit" name="send" value="Send">
+              <input type="reset" name="reset" value="Reset">
+            </p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Footer -->
+      <div class="footer">
+          <div class="wrapper">
+            <div class="col-1-2">
+                <h6>Contact</h6>
+                <p>Food Place</p>
+                <p>Berliner Allee 108</p>
+                <p>10435 Berlin</p>
+                <p>Telefon: +49 30 3456789</p>
+                <p><a class="social">Email: info@foodplace.com</a></p>
+            </div>
+
+            <div class="col-1-2">
+                <h6>Social Networks</h6>
+                <p><a class="social" href="https://www.facebook.com/">facebook</a></p>
+                <p><a class="social" href="https://www.twitter.com/">twitter</a></p>
+                <p><a class="social" href="https://www.instagram.com/">instagram</a></p>
+            </div>
+          </div>
+        </div>
+  </body>
+</html>
